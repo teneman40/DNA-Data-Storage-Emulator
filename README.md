@@ -4,7 +4,7 @@ For researchers aiming to replicate or build upon this encoding environment in a
 1. Compiler Installation
 Windows requires external configuration for C++ compilation.
 
-Download and execute the MSYS2 installer from their official distribution repository.
+Download and execute the MSYS2 (https://www.msys2.org/) installer from their official distribution repository.
 
 Launch the MSYS2 terminal and install the GCC toolchain by executing the following command:
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
